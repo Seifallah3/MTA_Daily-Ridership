@@ -1,68 +1,102 @@
 # MTA Daily Ridership Analysis & Forecasting 🚇 🚌
 
-## 📌 Project Overview
+## Instructor
 
-This project focuses on analyzing and forecasting the daily ridership data of the **Metropolitan Transportation Authority (MTA)** in New York City. The study covers the period from March 2020 (the start of the COVID-19 pandemic) through late 2024. Our goal is to provide data-driven insights into the recovery of the world's largest transportation network and predict future ridership volumes to assist in urban planning and decision-making.
-
----
-
-## 📂 Project Resources
-*Click the links below to view the project files directly on GitHub:*
-
-* 📊 **[Main Dataset](Data/mta_ridership_data.csv)** - Contains daily ridership counts and pre-pandemic comparisons.
-* 📖 **[Data Dictionary](Data/data_dictionary.csv)** - Descriptions of all fields and columns used in the dataset.
-* 📜 **[Technical Overview](Data/technical_notes.pdf)** - Official MTA documentation regarding methodology and data collection.
+**Dina Ezzat**
 
 ---
 
-## 🛠️ Tech Stack
+## Project Files
 
-* **Data Processing:** SQL, Python (Pandas, NumPy)
-* **Statistical Analysis:** Python (Scipy, Statsmodels)
-* **Machine Learning:** Scikit-learn (Time Series Forecasting)
-* **Data Visualization:** Tableau, Matplotlib, Seaborn
+You can find the full project files here:
 
----
-
-## 📅 4-Week Project Roadmap
-
-### **Week 1: Data Model & Preprocessing** 🧹
-
-* **Focus:** Cleaning the raw dataset and handling missing values (especially for LIRR/Metro-North records).
-* **Deliverables:** Cleaned dataset and a preprocessing Jupyter Notebook.
-
-### **Week 2: Analysis Questions Phase** 📊
-
-* **Focus:** Identifying trends such as "Which transit mode recovered fastest?" and "How do holiday patterns differ post-pandemic?".
-* **Deliverables:** SQL queries and Python-based statistical summaries.
-
-### **Week 3: Forecasting Questions Phase** 🔮
-
-* **Focus:** Building a model to predict ridership for the **next month** based on historical trends and seasonality.
-* **Deliverables:** Predictive visualization plots and model accuracy metrics.
-
-### **Week 4: Dashboard & Final Presentation** 🖥️
-
-* **Focus:** Designing an interactive **Tableau Dashboard** and compiling the final project report.
-* **Deliverables:** Interactive Dashboard link and Project Presentation.
+* 📊 **Main Dataset:** `Data/mta_ridership_data.csv` – Contains daily ridership counts and comparisons with pre-pandemic levels.
+* 📖 **Data Dictionary:** `Data/data_dictionary.csv` – Descriptions of all dataset columns and fields.
+* 📜 **Technical Overview:** `Data/technical_notes.pdf` – Official MTA documentation explaining the data collection methodology.
 
 ---
 
-## 👥 The Team (6 Members)
+## Project Name
 
-| Name | Primary Role | Responsibilities |
-| --- | --- | --- |
-| **Member 1** | **Data Engineer** | Data cleaning, type conversion, and handling null values. |
-| **Member 2** | **Database Specialist** | Managing SQL queries and structuring the data model. |
-| **Member 3** | **Data Analyst** | Performing EDA and answering business questions from Week 2. |
-| **Member 4** | **ML Engineer** | Developing the forecasting models and time-series predictions. |
-| **Member 5** | **BI Developer** | Designing the interactive Tableau Dashboard and KPIs. |
-| **Member 6** | **Project Coordinator** | Technical writing, final reporting, and presentation design. |
+**MTA Daily Ridership Analysis & Forecasting**
 
 ---
 
-## 🚀 How to Run
+## Project Idea
 
-1. **Clone the Repo:** `git clone https://github.com/your-username/mta-ridership-analysis.git`
-2. **Environment Setup:** Install requirements via `pip install -r requirements.txt`
-3. **Execution:** Run the Notebooks in order: `Preprocessing` -> `Analysis` -> `Forecasting`.
+This project analyzes the daily ridership data of the **Metropolitan Transportation Authority (MTA)** in New York City from **March 2020 through late 2024**.
+The goal is to understand how ridership changed during and after the **COVID-19 pandemic**, identify recovery patterns across different transportation modes, and build a **forecasting model** to predict future ridership trends.
+
+The insights generated can help support **urban planning, transportation management, and data-driven decision making**.
+
+---
+
+## Team Members
+
+1. Yousef Amr Ali
+2. Seifallah Ahmed Mohmed
+3. Ziad Sherief Sami
+4. Mohamed Ashraf Mohamed
+5. Adham Ismail Hassan
+6. Sondos El Saeed El Sayed
+7. Rawda Hassan Hamdi
+
+---
+
+## Project Plan
+
+### 1. Research & Analysis
+
+* Explore the dataset and understand the structure of the MTA ridership data.
+* Create **audience personas** such as:
+
+  * Urban planners
+  * Transportation analysts
+  * Policy decision makers
+
+### 2. Visual Identity
+
+* Design a **logo** representing transportation analytics.
+* Create a consistent **visual style** for charts and dashboard elements.
+
+### 3. Main Designs
+
+* Develop **data visualizations** showing ridership trends across different transportation modes.
+* Design a **poster** summarizing the main findings and insights.
+
+### 4. Complementary Products
+
+* Create an **interactive Tableau Dashboard** for exploring ridership trends.
+* Provide forecasting visualizations and insights.
+
+### 5. Review & Finalization
+
+* Validate analysis results and model performance.
+* Ensure data accuracy and dashboard usability.
+
+### 6. Final Presentation
+
+* Present the analysis, insights, and forecasting results.
+* Demonstrate the dashboard and explain key findings.
+
+---
+
+## Roles & Responsibilities
+
+* **Data Cleaning & Preparation:** Preparing and preprocessing the dataset.
+* **Data Analysis:** Identifying trends and answering analysis questions.
+* **Machine Learning & Forecasting:** Building models to predict future ridership.
+* **Data Visualization:** Designing charts and dashboards.
+* **Documentation & Presentation:** Writing the README, report, and final presentation.
+
+---
+
+## KPIs (Key Performance Indicators)
+
+Metrics used to measure the project's success include:
+
+* **Forecast Accuracy** of the predictive model
+* **Data Quality** after preprocessing
+* **Dashboard Usability and Clarity**
+* **Insight Generation** (useful trends and patterns discovered)
+* **Audience Engagement** during the final presentation
