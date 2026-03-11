@@ -10,9 +10,9 @@
 
 You can find the full project files here:
 
-* 📊 **Main Dataset:** `Data/mta_ridership_data.csv` – Contains daily ridership counts and comparisons with pre-pandemic levels.
-* 📖 **Data Dictionary:** `Data/data_dictionary.csv` – Descriptions of all dataset columns and fields.
-* 📜 **Technical Overview:** `Data/technical_notes.pdf` – Official MTA documentation explaining the data collection methodology.
+- 📊 **Dataset** → [View File](Data/mta_ridership_data.csv)
+- 📖 **Data Dictionary** → [View File](Data/data_dictionary.csv)
+- 📜 **Technical Notes** → [View File](Data/technical_notes.pdf)
 
 ---
 
@@ -25,9 +25,10 @@ You can find the full project files here:
 ## Project Idea
 
 This project analyzes the daily ridership data of the **Metropolitan Transportation Authority (MTA)** in New York City from **March 2020 through late 2024**.
-The goal is to understand how ridership changed during and after the **COVID-19 pandemic**, identify recovery patterns across different transportation modes, and build a **forecasting model** to predict future ridership trends.
 
-The insights generated can help support **urban planning, transportation management, and data-driven decision making**.
+The objective is to explore how public transportation ridership changed during and after the **COVID-19 pandemic**, identify recovery patterns across transportation modes, and build a **forecasting model** to predict future ridership levels.
+
+The insights generated will help support **transportation planning, operational decisions, and policy development**.
 
 ---
 
@@ -43,60 +44,105 @@ The insights generated can help support **urban planning, transportation managem
 
 ---
 
-## Project Plan
+# Project Plan
 
-### 1. Research & Analysis
+## Week 1: Build Data Model, Data Cleaning and Preprocessing
 
-* Explore the dataset and understand the structure of the MTA ridership data.
-* Create **audience personas** such as:
+### Tasks
 
-  * Urban planners
-  * Transportation analysts
-  * Policy decision makers
+* **Data Preprocessing:** Build a data model and clean and preprocess the dataset.
+* Handle missing values and ensure data consistency.
+* Prepare the dataset for analysis.
 
-### 2. Visual Identity
+### Tools
 
-* Design a **logo** representing transportation analytics.
-* Create a consistent **visual style** for charts and dashboard elements.
+* SQL
+* Python (Pandas, Matplotlib)
 
-### 3. Main Designs
+### Deliverables
 
-* Develop **data visualizations** showing ridership trends across different transportation modes.
-* Design a **poster** summarizing the main findings and insights.
+* Cleaned dataset ready for analysis.
+* Data preprocessing notebook.
 
-### 4. Complementary Products
+---
 
-* Create an **interactive Tableau Dashboard** for exploring ridership trends.
-* Provide forecasting visualizations and insights.
+## Week 2: Analysis Questions Phase
 
-### 5. Review & Finalization
+### Tasks
 
-* Validate analysis results and model performance.
-* Ensure data accuracy and dashboard usability.
+* **Determine Data Analysis Questions:** Identify all possible analysis questions that can be answered using the dataset.
+* Focus on questions that are relevant to **organizational decision makers**.
+* Explore patterns and trends in ridership across transportation modes.
 
-### 6. Final Presentation
+### Tools
 
-* Present the analysis, insights, and forecasting results.
-* Demonstrate the dashboard and explain key findings.
+* SQL
+* Python (Pandas, Matplotlib)
+
+### Deliverables
+
+* A set of **data analysis questions** that can be answered using the dataset.
+
+---
+
+## Week 3: Forecasting Questions Phase
+
+### Tasks
+
+* **Determine Forecasting Questions:** Develop forecasting questions based on the trends discovered in the dataset.
+* Build models to **predict ridership trends**.
+* Forecast the **expected ridership for the next month**.
+
+### Tools
+
+* Python (Scikit-learn, Pandas, Matplotlib)
+
+### Deliverables
+
+* Visualization plots answering the forecasting questions.
+* Forecast results for future ridership trends.
+
+---
+
+## Week 4: Visualization Dashboard and Final Presentation
+
+### Tasks
+
+* **Build a Visualization Dashboard:** Create a Tableau dashboard to visualize the answers to the analysis and forecasting questions.
+* **Final Presentation:** Prepare a report and presentation summarizing:
+
+  * Data preprocessing
+  * Data analysis insights
+  * Forecasting models
+  * Key findings
+
+### Tools
+
+* SQL
+* Python (Pandas, Matplotlib)
+* Tableau
+
+### Deliverables
+
+* Visualization dashboard
+* Final report and presentation
 
 ---
 
 ## Roles & Responsibilities
 
-* **Data Cleaning & Preparation:** Preparing and preprocessing the dataset.
-* **Data Analysis:** Identifying trends and answering analysis questions.
-* **Machine Learning & Forecasting:** Building models to predict future ridership.
-* **Data Visualization:** Designing charts and dashboards.
-* **Documentation & Presentation:** Writing the README, report, and final presentation.
+* **Data Cleaning & Preprocessing**
+* **Exploratory Data Analysis**
+* **Forecasting Model Development**
+* **Dashboard Development**
+* **Documentation & Presentation**
 
 ---
 
 ## KPIs (Key Performance Indicators)
 
-Metrics used to measure the project's success include:
-
-* **Forecast Accuracy** of the predictive model
-* **Data Quality** after preprocessing
-* **Dashboard Usability and Clarity**
-* **Insight Generation** (useful trends and patterns discovered)
-* **Audience Engagement** during the final presentation
+* Accuracy of the forecasting model
+* Quality and reliability of cleaned data
+* Clarity and usability of the visualization dashboard
+* Ability to generate actionable insights for decision makers
+* Effectiveness of the final presentation
